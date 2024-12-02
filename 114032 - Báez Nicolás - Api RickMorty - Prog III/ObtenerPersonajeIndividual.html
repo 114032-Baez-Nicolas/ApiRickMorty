@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Detalles del Personaje</title>
+    <link rel="stylesheet" href="css/styleExtra.css">
+</head>
+
+<body>
+
+    <div class="container-fluid bg-primary py-5">
+        <div class="container text-white">
+            <p class="lead text-center">114032 - Báez Nicolás</p>
+            <h1 id="characterName" class="text-center"></h1>
+        </div>
+    </div>
+
+    <div class="py-3">
+        <div class="container" id="divborder">
+            <form>
+                <div class="form-group">
+                    <img id="personajeImagen" class="img-fluid" alt="Personaje Imagen">
+                </div>
+                <div class="form-group">
+                    <label for="personajeGenero">Genero:</label>
+                    <input type="text" class="form-control" id="personajeGenero" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="personajeOrigen">Origen:</label>
+                    <input type="text" class="form-control" id="personajeOrigen" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="personajeEspecie">Especie:</label>
+                    <input type="text" class="form-control" id="personajeEspecie" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="personajeStatus">Status:</label>
+                    <input type="text" class="form-control" id="personajeStatus" readonly>
+                </div>
+
+                <div>
+                    <a class="btn btn-primary form-control text-white"
+                        onclick="window.location.href='ObtenerPersonajes.html'" type="submit">Listado de Personajes</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="js/jsFile2.js">
+    </script>
+
+</body>
+
+</html>
